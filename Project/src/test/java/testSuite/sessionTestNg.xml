@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test name="Session Storage Test">
+        <classes>
+            <class name="testCase.sessionStorage"></class>
+        </classes>
+    </test>
+    <test  name="Local Storage Test">
+        <classes>
+            <class name="testCase.LocalStorageSelenium"></class>
+        </classes>
+    </test>
+</suite>
